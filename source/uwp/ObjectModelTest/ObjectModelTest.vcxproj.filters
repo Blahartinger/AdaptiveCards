@@ -27,31 +27,91 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\shared\ObjectModel\AdaptiveCard.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\shared\ObjectModel\AdaptiveCardParseException.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\shared\ObjectModel\BaseCardElement.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\shared\ObjectModel\Container.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\shared\ObjectModel\Enums.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\shared\ObjectModel\Image.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\shared\ObjectModel\ParseUtil.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\shared\ObjectModel\pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\shared\ObjectModel\TextBlock.h">
+    <ClInclude Include="..\..\shared\cpp\ObjectModel\AdaptiveCard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\cpp\ObjectModel\AdaptiveCardParseException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\cpp\ObjectModel\BaseActionElement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\cpp\ObjectModel\BaseCardElement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\cpp\ObjectModel\BaseInputElement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\cpp\ObjectModel\ChoiceInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\cpp\ObjectModel\ChoiceSetInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\cpp\ObjectModel\Column.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\cpp\ObjectModel\ColumnSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\cpp\ObjectModel\Container.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\cpp\ObjectModel\DateInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\cpp\ObjectModel\Enums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\cpp\ObjectModel\Fact.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\cpp\ObjectModel\FactSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\cpp\ObjectModel\HostConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\cpp\ObjectModel\HttpAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\cpp\ObjectModel\Image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\cpp\ObjectModel\ImageSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\cpp\ObjectModel\NumberInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\cpp\ObjectModel\OpenUrlAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\cpp\ObjectModel\ParseUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\cpp\ObjectModel\pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\cpp\ObjectModel\ShowCardAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\cpp\ObjectModel\SubmitAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\cpp\ObjectModel\TextBlock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\cpp\ObjectModel\TextInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\cpp\ObjectModel\TimeInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\cpp\ObjectModel\ToggleInput.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -62,31 +122,88 @@
     <ClCompile Include="ObjectModelTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\shared\ObjectModel\AdaptiveCard.cpp">
+    <ClCompile Include="..\..\shared\cpp\ObjectModel\AdaptiveCard.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\shared\ObjectModel\AdaptiveCardParseException.cpp">
+    <ClCompile Include="..\..\shared\cpp\ObjectModel\AdaptiveCardParseException.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\shared\ObjectModel\BaseCardElement.cpp">
+    <ClCompile Include="..\..\shared\cpp\ObjectModel\BaseActionElement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\shared\ObjectModel\Container.cpp">
+    <ClCompile Include="..\..\shared\cpp\ObjectModel\BaseCardElement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\shared\ObjectModel\Enums.cpp">
+    <ClCompile Include="..\..\shared\cpp\ObjectModel\BaseInputElement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\shared\ObjectModel\Image.cpp">
+    <ClCompile Include="..\..\shared\cpp\ObjectModel\ChoiceInput.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\shared\ObjectModel\jsoncpp.cpp">
+    <ClCompile Include="..\..\shared\cpp\ObjectModel\ChoiceSetInput.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\shared\ObjectModel\ParseUtil.cpp">
+    <ClCompile Include="..\..\shared\cpp\ObjectModel\Column.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\shared\ObjectModel\TextBlock.cpp">
+    <ClCompile Include="..\..\shared\cpp\ObjectModel\ColumnSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\cpp\ObjectModel\Container.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\cpp\ObjectModel\DateInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\cpp\ObjectModel\Enums.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\cpp\ObjectModel\Fact.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\cpp\ObjectModel\FactSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\cpp\ObjectModel\HostConfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\cpp\ObjectModel\HttpAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\cpp\ObjectModel\Image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\cpp\ObjectModel\ImageSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\cpp\ObjectModel\jsoncpp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\cpp\ObjectModel\NumberInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\cpp\ObjectModel\OpenUrlAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\cpp\ObjectModel\ParseUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\cpp\ObjectModel\ShowCardAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\cpp\ObjectModel\SubmitAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\cpp\ObjectModel\TextBlock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\cpp\ObjectModel\TextInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\cpp\ObjectModel\TimeInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\cpp\ObjectModel\ToggleInput.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

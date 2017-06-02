@@ -43,6 +43,8 @@ public:
 
     static Json::Value GetJsonValueFromString(const std::string jsonString);
 
+    static Json::Value ExtractJsonValue(const Json::Value& jsonRoot, AdaptiveCardSchemaKey key, bool isRequired = false);
+
     template <typename T>
     static T GetEnumValue(
         const Json::Value& json,
